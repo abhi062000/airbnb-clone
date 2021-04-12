@@ -1,0 +1,44 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  z-index: 10;
+  width: 100%;
+  background-color: #fff;
+}
+
+.header__icon {
+  object-fit: contain;
+  display: flex;
+  height: 100px;
+  flex: 2;
+  justify-content: center;
+}
+
+.header__center {
+  display: flex;
+  align-items: center;
+  flex: 4;
+  justify-content: center;
+  border: 1px solid lightgray;
+  border-radius: 999px;
+  padding: 10px;
+  outline-width: 1px;
+  width: 300px;
+}
+.header__center > input {
+  width: 100%;
+  border: none;
+}
+.header__center > input:focus {
+  outline: none;
+  border: none;
+}
+
+.header__right {
+  display: flex;
+  align-items: center;
+  flex: 2;
+  justify-content: center;
+}
